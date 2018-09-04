@@ -1,0 +1,14 @@
+<beans>
+    <bean id="company" class="Implementing_a_simple_IOC.Company">
+        <property name="name" value="Alibaba" />
+        <property name="type" value="IT" />
+        <property name="peopleNum" value="34" />
+    </bean>
+
+    <bean id="people" class="Implementing_a_simple_IOC.People">
+        <property name="name" value="Lucy"/>
+        <property name="age" value="23"/>
+        <property name="gender" value="women"/>
+        <property name="company" ref="company"/>
+    </bean>
+</beans>
