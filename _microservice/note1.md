@@ -1,5 +1,6 @@
 微服务是一种架构风格，、
 应该具备的特性
+```
         -每个微服务可以独立运行在自己的进程里
         -每个服务为独立的业务开发，一个微服务只关注一个特定功能
         -微服务之间通过轻量的通信机制进行同行
@@ -10,10 +11,12 @@
           -分布式固有的复杂性（系统容错，网络延迟，分布式事务）
           -接口调整成本高（使用接口进行通信）
           -重复劳动：没有达到微服务程度的功能代码可能各自都要开发一遍（可以使用共享库，但是在多语言的环境下行不通）
+```
 
 开源微服务框架包括Spring Cloud、Dubbo、gRPC，Service Mesh（用户对保证服务间通信的端到端性能和可靠性的需求）
 
 微服务架构的理论基础——康威定律
+```
      Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations. - Melvin Conway(1967)
         简言：组织形式等同于系统设计
         Design RESTful API的作者从他的角度归纳了他的论文中的一些核心观点
@@ -25,7 +28,8 @@
       第四定律：The structures of large systems tend to disintegrate during development, qualitatively more so than with small systems
                 大的系统组织总是比小系统更倾向于分解
 
-                康威法则给我们的启示：软件系统的接口结构会映射组织的沟通结构，如果组织架构不合理，就无法建立一个高效的系统架构。一般在系统架构调整时，要提前考虑相应的组织架构的调整，两边联动才能产生效果。
+      康威法则给我们的启示：软件系统的接口结构会映射组织的沟通结构，如果组织架构不合理，就无法建立一个高效的系统架构。一般在系统架构调整时，要提前考虑相应的组织架构的调整，两边联动才能产生效果。
+```
 
 单体应用架构<容易测试，容易部署。开发效率低，代码维护难 ，部署不灵活，稳定性不高，扩展性不够>，
 垂直应用架构，

@@ -8,7 +8,7 @@ public class SimpleAOPTest {
     public void getProxy() throws Exception{
 
         //创建一个MethodInvocation实现类，并初始化
-        MethodInvocation logTask = () -> System.out.println("log task start");
+        MethodInvocation logTask = ( ) -> System.out.println("log task start");
 
         HelloServiceImpl helloServiceImpl = new HelloServiceImpl();
 

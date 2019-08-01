@@ -3,7 +3,6 @@ package Implementing_a_simple_IOC;
 import org.junit.jupiter.api.Test;
 
 public class SimpleIOCTest {
-//    Implementing_a_simple_IOC/ioc.xml  Implementing_a_simple_IOC/ioc.xml
 
     @Test
     public  void getBean() throws Exception{

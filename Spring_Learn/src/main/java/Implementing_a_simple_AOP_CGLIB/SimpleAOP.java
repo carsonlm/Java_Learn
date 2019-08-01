@@ -10,7 +10,6 @@ public class SimpleAOP  implements MethodInterceptor {
 
 
     /***
-     *
      * @param o 由CGLib动态生成的代理类实例
      * @param method 为实体类所调用的被代理的方法引用
      * @param objects 为参数值列表
